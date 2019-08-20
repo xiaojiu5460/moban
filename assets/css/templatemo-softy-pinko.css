@@ -823,6 +823,7 @@ features
 */
 
 .features-small-item {
+    height: 250px;
     cursor: pointer;
     display: block;
     background: #FFFFFF;
@@ -830,7 +831,7 @@ features
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    padding: 30px;
+    padding: 45px 30px;
     /* text-align: center; */
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -895,8 +896,17 @@ features
 .home-feature {
     padding-bottom: 0px;
     padding-top: 30px;
-    margin-top: -130px;
+    margin-top: -160px;
     z-index: 9;
+}
+
+.home-feature h4 {
+    margin-bottom: 10px;
+}
+
+.home-feature h4,
+.home-feature h6 {
+    line-height: 30px;
 }
 
 @media (max-width: 991px) {
@@ -931,7 +941,7 @@ parallax & home seperator
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(../images/work-process-bg.png);
+    /* background-image: url(../images/work-process-bg.png); */
     z-index: 2;
     top: -20%;
     left: -20%;
@@ -1672,7 +1682,22 @@ preloader
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .home-feature .container {
         max-width: 1415px;
     }
+    #testimonials .container,
+    #work-process .container,
+    #features .container,
+    #pricing-plans .container,
+    .counter .container,
+    #pinpai .container {
+        max-width: 100%;
+        padding: 0;
+        background-color: #fff;
+    }
 }
+
+
+/* .counter {
+    padding: 0 -15px;
+} */
