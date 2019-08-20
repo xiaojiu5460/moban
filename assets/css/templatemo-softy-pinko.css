@@ -195,9 +195,10 @@ body {
     padding-bottom: 80px;
 }
 
-.section.colored {
+
+/* .section.colored {
     background: #f2f2fe;
-}
+} */
 
 .hr {
     bottom: 0px;
@@ -693,6 +694,16 @@ header
     }
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
+    }
+    #testimonials .container,
+    #work-process .container,
+    #features .container,
+    #pricing-plans .container,
+    .counter .container,
+    #pinpai .container {
+        max-width: 100%;
+        padding: 0;
+        background-color: #fff;
     }
 }
 
