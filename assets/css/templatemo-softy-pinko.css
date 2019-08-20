@@ -445,7 +445,7 @@ header
 
 .header-area {
     position: fixed;
-    top: 49px;
+    top: 65px;
     left: 0px;
     right: 0px;
     z-index: 100;
@@ -1703,7 +1703,7 @@ preloader
     .counter .container,
     #pinpai .container {
         max-width: 100%;
-        padding: 0;
+        /* padding: 0; */
         background-color: #fff;
     }
 }
